@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🌱 Agro é Forte: Futuro Sustentável</h1>
+        <p>Equilíbrio entre Produção e Meio Ambiente</p>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Práticas Sustentáveis</h2>
+            <button id="mostrarBtn">Mostrar Práticas</button>
+            <div id="lista"></div>
+        </section>
+
+        <section>
+            <h2>Quiz Sustentável</h2>
+
+            <p>Qual dessas fontes de energia é renovável?</p>
+
+            <button onclick="responder(true)">Energia Solar</button>
+            <button onclick="responder(false)">Carvão Mineral</button>
+
+            <h3 id="resultado"></h3>
+        </section>
+
+        <section>
+            <h2>🤖 Inteligência Artificial no Agro</h2>
+
+            <p>
+                A Inteligência Artificial ajuda agricultores a identificar
+                pragas, prever mudanças climáticas e economizar recursos,
+                tornando a produção mais eficiente e sustentável.
+            </p>
+
+            <button onclick="analisarSolo()">
+                Simular Análise por IA
+            </button>
+
+            <h3 id="iaResultado"></h3>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
